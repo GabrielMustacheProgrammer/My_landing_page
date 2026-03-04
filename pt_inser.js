@@ -97,7 +97,7 @@ const experience = [
         ],
         side: "right",
         delay: 0,
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_100_100/B4DZcSgOD1HMAU-/0/1748362125886/cisco_networking_academy1_logo?e=1763596800&v=beta&t=bzQRcF8IVlrzZsE1I5WG3CnhplTiNRsZdKfrcnreRWg"
+        img: ""
     },
     {
         year: "2024 - Presente",
@@ -121,7 +121,7 @@ const experience = [
         ],
         side: "left",
         delay: 1,
-        img: "https://media.licdn.com/dms/image/v2/C4D0BAQEX6f-oCb07jQ/company-logo_100_100/company-logo_100_100/0/1669896560309/senacminas_logo?e=1763596800&v=beta&t=jJuWfJSvEkFrhTb7YSLfmAQlTh6GN5J-AZKwzaXeL6A"
+        img: ""
     },
     {
         year: "2024 - 2025",
@@ -140,7 +140,7 @@ const experience = [
         ],
         side: "right",
         delay: 2,
-        img: "https://media.licdn.com/dms/image/v2/D560BAQGxw8ejZKpVTA/company-logo_100_100/company-logo_100_100/0/1689014804966/stefanini_logo?e=1763596800&v=beta&t=zqm51X0Q7bbVRS4WCGdoBuJH2dKLRtvF4vgdm5oL9B8"
+        img: ""
     },
     {
         year: "2022 - 2024",
@@ -158,7 +158,7 @@ const experience = [
         ],
         side: "left",
         delay: 2,
-        img: "https://media.licdn.com/dms/image/v2/C4D0BAQFx2XuglwyZEw/company-logo_100_100/company-logo_100_100/0/1633350538567?e=1763596800&v=beta&t=C9y0ibRIiyLBo5EggfEqrtYLa_Ox75cZTQgeOl4P8hE"
+        img: ""
     },
     {
         year: "Nov 2021 (temporário Black Friday)",
@@ -171,7 +171,7 @@ const experience = [
         ],
         side: "right",
         delay: 3,
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQEoMTZW5hktPw/company-logo_100_100/company-logo_100_100/0/1688744936290/americanas_sa_logo?e=1763596800&v=beta&t=cZFInAytRgMEQwFvrLk2m2Be19lrd_xMJ-A655EXUEk"
+        img: ""
     },
     {
         year: "Out 2021 (temporário – final de ano)",
@@ -185,7 +185,7 @@ const experience = [
         ],
         side: "left",
         delay: 4,
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQE5umfEkkCDpQ/company-logo_100_100/B4DZnDvvo1JEAU-/0/1759925704297?e=1763596800&v=beta&t=UhB2Y4KJrqHGpV5zgxFN_0U1pgjnQV_QpTCD2dy6m84"
+        img: ""
     },
     {
         year: "Out 2021 (temporário – final de ano)",
@@ -232,7 +232,7 @@ const formation = [
         disciplines: ["Formação em andamento"],
         side: "right",
         delay: 1,
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQHaxCRA92zMjQ/company-logo_100_100/company-logo_100_100/0/1713573963371/senacbrasil_logo?e=1763596800&v=beta&t=WWQZKThvXi5-1WL9jrCaVOTnihkYJuKqjWLKgd5MMns"
+        img: ""
     },
     {
         year: "2025 - Em andamento (2026)",
@@ -250,7 +250,7 @@ const formation = [
         ],
         side: "left",
         delay: 2,
-        img: "https://media.licdn.com/dms/image/v2/C4D0BAQH1QLryW1IEFQ/company-logo_100_100/company-logo_100_100/0/1630552069493/faculdade_descomplica_logo?e=1763596800&v=beta&t=DiFaI3a_wrqFUK_hHxptbqnWycXreYzOABicjsF0-ZY"
+        img: ""
     },
     {
         year: "2021 - 2024",
@@ -284,7 +284,7 @@ const formation = [
         ],
         side: "right",
         delay: 3,
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQHwFH100tDQrQ/company-logo_100_100/company-logo_100_100/0/1708013055513/unicesumaroficial_logo?e=1763596800&v=beta&t=wHAEsqTI7NSpE0EOstUF9yo-OZ-P6fEnOcUW6MvFUBY"
+        img: ""
     },
     {
         year: "2022 - 2023",
@@ -309,7 +309,7 @@ const formation = [
         side: "left",
         delay: 4,
 
-        img: "https://media.licdn.com/dms/image/v2/C4D0BAQEX6f-oCb07jQ/company-logo_100_100/company-logo_100_100/0/1669896560309/senacminas_logo?e=1763596800&v=beta&t=jJuWfJSvEkFrhTb7YSLfmAQlTh6GN5J-AZKwzaXeL6A"
+        img: ""
     },
     {
         year: "2016 - 2019",
@@ -339,7 +339,7 @@ const formation = [
         side: "right",
         delay: 5,
 
-        img: "https://media.licdn.com/dms/image/v2/C510BAQGUy0hSknH6bw/company-logo_100_100/company-logo_100_100/0/1631313020185?e=1763596800&v=beta&t=685iLAPwCcC_-vB1wZ0Pu069DfOscNFxgu6btJE1U0Q"
+        img: ""
     }
 ];
 
@@ -370,133 +370,133 @@ const certificates = [
         institution: "Stefanini Brasil",
         year: 2024,
         description: "Curso sobre utilização de práticas e verificações de códigos em busca de vulnerabilidades por meio do SonarQube.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFOPyOhO4wTTg/company-logo_100_100/company-logo_100_100/0/1719784126380/stefanini_brasil_logo?e=1762992000&v=beta&t=NGdYaIkHvL6YgAzd7E4zjERuKh0AUrQuY6Lp3N6Ihpk"
+        img: ""
     },
     {
         name: "Design Thinking",
         institution: "Stefanini Brasil",
         year: 2024,
         description: "Curso focado na metodologia Design Thinking com ênfase em empatia, definição, ideação e prototipagem centrada no usuário.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFOPyOhO4wTTg/company-logo_100_100/company-logo_100_100/0/1719784126380/stefanini_brasil_logo?e=1762992000&v=beta&t=NGdYaIkHvL6YgAzd7E4zjERuKh0AUrQuY6Lp3N6Ihpk"
+        img: ""
     },
     {
         name: "Power BI",
         institution: "Stefanini Brasil",
         year: 2024,
         description: "Curso introdutório sobre uso de dashboards e visualização de dados no Power BI.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFOPyOhO4wTTg/company-logo_100_100/company-logo_100_100/0/1719784126380/stefanini_brasil_logo?e=1762992000&v=beta&t=NGdYaIkHvL6YgAzd7E4zjERuKh0AUrQuY6Lp3N6Ihpk"
+        img: ""
     },
     {
         name: "Prompt para ChatGPT",
         institution: "Stefanini Brasil",
         year: 2024,
         description: "Boas práticas de escrita de prompts, técnicas avançadas e conceitos de temperatura e top-p.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFOPyOhO4wTTg/company-logo_100_100/company-logo_100_100/0/1719784126380/stefanini_brasil_logo?e=1762992000&v=beta&t=NGdYaIkHvL6YgAzd7E4zjERuKh0AUrQuY6Lp3N6Ihpk"
+        img: ""
     },
     {
         name: "Criação de Prompts - SAI APP",
         institution: "Workover Academy",
         year: 2024,
         description: "Curso sobre criação de prompts otimizados para IA no aplicativo SAI APP.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFf6UwQAo7bfA/company-logo_100_100/company-logo_100_100/0/1694958515717/workoveracademy_logo?e=1762992000&v=beta&t=iw46f3XDCwoGnUHlh3ArvA0m8x32Vcg_SLP_rI583PE"
+        img: ""
     },
     {
         name: "Fundamentos Design Gráfico",
         institution: "Fundação Bradesco",
         year: 2024,
         description: "Curso de fundamentos de design gráfico e composição visual.",
-        img: "https://media.licdn.com/dms/image/v2/C4E0BAQFOiaQvbDY3hQ/company-logo_100_100/company-logo_100_100/0/1630591657622/fundacaobradesco_logo?e=1762992000&v=beta&t=pji9RD2DERgsmsDeNgKEVK9gyZMeh7ogUZpZ6GjNXsQ"
+        img: ""
     },
     {
         name: "Gestão Inteligente de Tempo",
         institution: "Workover Academy",
         year: 2024,
         description: "Gestão e priorização de tarefas, produtividade e foco pessoal.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFf6UwQAo7bfA/company-logo_100_100/company-logo_100_100/0/1694958515717/workoveracademy_logo?e=1762992000&v=beta&t=iw46f3XDCwoGnUHlh3ArvA0m8x32Vcg_SLP_rI583PE"
+        img: ""
     },
     {
         name: "Negociação Estratégica",
         institution: "Workover Academy",
         year: 2024,
         description: "Curso sobre técnicas e estratégias de negociação corporativa.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFf6UwQAo7bfA/company-logo_100_100/company-logo_100_100/0/1694958515717/workoveracademy_logo?e=1762992000&v=beta&t=iw46f3XDCwoGnUHlh3ArvA0m8x32Vcg_SLP_rI583PE"
+        img: ""
     },
     {
         name: "Negociações Eficazes",
         institution: "Workover Academy",
         year: 2024,
         description: "Curso sobre técnicas de comunicação e persuasão em negociações.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFf6UwQAo7bfA/company-logo_100_100/company-logo_100_100/0/1694958515717/workoveracademy_logo?e=1762992000&v=beta&t=iw46f3XDCwoGnUHlh3ArvA0m8x32Vcg_SLP_rI583PE"
+        img: ""
     },
     {
         name: "Scrum",
         institution: "Workover Academy",
         year: 2024,
         description: "Curso introdutório sobre metodologia ágil Scrum e seus papéis, artefatos e eventos.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFf6UwQAo7bfA/company-logo_100_100/company-logo_100_100/0/1694958515717/workoveracademy_logo?e=1762992000&v=beta&t=iw46f3XDCwoGnUHlh3ArvA0m8x32Vcg_SLP_rI583PE"
+        img: ""
     },
     {
         name: "TypeScript do Básico ao Avançado",
         institution: "Workover Academy",
         year: 2024,
         description: "Curso completo de TypeScript com fundamentos, tipos, classes e integração com frameworks.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFf6UwQAo7bfA/company-logo_100_100/company-logo_100_100/0/1694958515717/workoveracademy_logo?e=1762992000&v=beta&t=iw46f3XDCwoGnUHlh3ArvA0m8x32Vcg_SLP_rI583PE"
+        img: ""
     },
     {
         name: "Mindset",
         institution: "Stefanini Brasil",
         year: 2024,
         description: "Curso sobre mentalidade de crescimento e comportamento profissional.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQFOPyOhO4wTTg/company-logo_100_100/company-logo_100_100/0/1719784126380/stefanini_brasil_logo?e=1762992000&v=beta&t=NGdYaIkHvL6YgAzd7E4zjERuKh0AUrQuY6Lp3N6Ihpk"
+        img: ""
     },
     {
         name: "Análise de Dados com Microsoft Power BI",
         institution: "BHS",
         year: 2023,
         description: "Curso sobre criação de dashboards e relatórios interativos no Power BI.",
-        img: "https://media.licdn.com/dms/image/v2/C4D0BAQFIN_BXyw4dAQ/company-logo_100_100/company-logo_100_100/0/1657568147168/bhsoficial_logo?e=1762992000&v=beta&t=0QgmXxwt_zoVGCanMAS87W9DaZnWkE8BFiYRurTP0W0"
+        img: ""
     },
     {
         name: "Instrutor Python — Programando com Games",
         institution: "Centro Universitário Una",
         year: 2023,
         description: "Atuação como instrutor no curso de programação com games usando Python.",
-        img: "https://media.licdn.com/dms/image/v2/C4D0BAQFx2XuglwyZEw/company-logo_100_100/company-logo_100_100/0/1633350538567?e=1762992000&v=beta&t=zTurN6GjmKYFHuKOiLyT18QsUrnTu_VAAac1rz56FcI"
+        img: ""
     },
     {
         name: "AWS Educate: Introduction to Cloud 101",
         institution: "Amazon Web Services (AWS)",
         year: 2023,
         description: "Introdução à computação em nuvem com AWS Educate.",
-        img: "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1762992000&v=beta&t=cTvB_H0qvjOVGLJ1KcdpU592UHsbLzfw6wPYPwluDFg"
+        img: ""
     },
     {
         name: "Introdução à Análise de Dados - Microsoft Power BI",
         institution: "Fundação Bradesco",
         year: 2023,
         description: "Curso introdutório de análise de dados com Power BI.",
-        img: "https://media.licdn.com/dms/image/v2/C4E0BAQFOiaQvbDY3hQ/company-logo_100_100/company-logo_100_100/0/1630591657622/fundacaobradesco_logo?e=1762992000&v=beta&t=pji9RD2DERgsmsDeNgKEVK9gyZMeh7ogUZpZ6GjNXsQ"
+        img: ""
     },
     {
         name: "Segurança em Tecnologia da Informação",
         institution: "Fundação Bradesco",
         year: 2023,
         description: "Conceitos básicos de segurança digital, redes e proteção de dados.",
-        img: "https://media.licdn.com/dms/image/v2/C4E0BAQFOiaQvbDY3hQ/company-logo_100_100/company-logo_100_100/0/1630591657622/fundacaobradesco_logo?e=1762992000&v=beta&t=pji9RD2DERgsmsDeNgKEVK9gyZMeh7ogUZpZ6GjNXsQ"
+        img: ""
     },
     {
         name: "Facilitador do Curso de Operação de Informática Básica",
         institution: "Centro Universitário Una",
         year: 2022,
         description: "Certificação de facilitador no curso de operação de informática básica.",
-        img: "https://media.licdn.com/dms/image/v2/C4D0BAQFx2XuglwyZEw/company-logo_100_100/company-logo_100_100/0/1633350538567?e=1762992000&v=beta&t=zTurN6GjmKYFHuKOiLyT18QsUrnTu_VAAac1rz56FcI"
+        img: ""
     },
     {
         name: "Get Connected",
         institution: "Cisco Networking Academy",
         year: 2022,
         description: "Curso introdutório de redes e sistemas operacionais Windows.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_100_100/B4DZcSgOD1HMAU-/0/1748362125886/cisco_networking_academy1_logo?e=1762992000&v=beta&t=gDzYkWH1X_w4gwhZJqATukCQXz1pEamtzywu8Xonuhs"
+        img: ""
     },
     {
         name: "Operação de Checkout",
@@ -510,42 +510,42 @@ const certificates = [
         institution: "Exército Brasileiro",
         year: 2018,
         description: "Reconhecimento por assiduidade e disciplina exemplar.",
-        img: "https://media.licdn.com/dms/image/v2/C4E0BAQExH1wSx3J7Ag/company-logo_100_100/company-logo_100_100/0/1630567269629/exercitobrasileiro_logo?e=1762992000&v=beta&t=i_UT_gZemJyN0rYJMu-9m56EzIuXFJgW0DJX7qE2ejk"
+        img: ""
     },
     {
         name: "Honra ao Mérito — Exército Brasileiro",
         institution: "Exército Brasileiro",
         year: 2018,
         description: "Reconhecimento por destaque em desempenho e conduta.",
-        img: "https://media.licdn.com/dms/image/v2/C4E0BAQExH1wSx3J7Ag/company-logo_100_100/company-logo_100_100/0/1630567269629/exercitobrasileiro_logo?e=1762992000&v=beta&t=i_UT_gZemJyN0rYJMu-9m56EzIuXFJgW0DJX7qE2ejk"
+        img: ""
     },
     {
         name: "XII Jornada de Foguetes da MOBFOG",
         institution: "OBAFOG, SAB e AEB ",
         year: 2017,
         description: "Participação na competição nacional de foguetes com medalha de bronze.",
-        img: "https://media.licdn.com/dms/image/v2/D4D0BAQHx_2UUGSDX0w/company-logo_100_100/company-logo_100_100/0/1667305897462?e=1762992000&v=beta&t=63wLjXuYq5EQhvN4B8a_128dki4ePxTiSRt1lrLhfGE"
+        img: ""
     },
     {
         name: "Especialista AutoCAD",
         institution: "Compuway",
         year: 2015,
         description: "Curso profissional de AutoCAD com práticas de modelagem e desenho técnico.",
-        img: "img/certificates_imgs/autocad.jpg"
+        img: ""
     },
     {
         name: "Programa Vamos Falar de Ética",
         institution: "JA Brasil",
         year: 2015,
         description: "Curso sobre valores éticos e responsabilidade social no ambiente profissional.",
-        img: "https://media.licdn.com/dms/image/v2/C4D0BAQFyu-1Z2RRuLg/company-logo_100_100/company-logo_100_100/0/1659387742634?e=1762992000&v=beta&t=e0PxSQGYXm1-Cw32pvE_JPulVbOPu6MqP8-UsdC3B8k"
+        img: ""
     },
     {
         name: "Programa As Vantagens de Permanecer na Escola",
         institution: "JA Brasil",
         year: 2014,
         description: "Programa educacional sobre a importância da continuidade dos estudos.",
-        img: "https://media.licdn.com/dms/image/v2/C4D0BAQFyu-1Z2RRuLg/company-logo_100_100/company-logo_100_100/0/1659387742634?e=1762992000&v=beta&t=e0PxSQGYXm1-Cw32pvE_JPulVbOPu6MqP8-UsdC3B8k"
+        img: ""
     }
 ];
 
