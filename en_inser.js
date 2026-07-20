@@ -1,4 +1,63 @@
 
+const registers = [
+    {
+        type: "image",
+        src: "img/radio.png",
+        alt: "Radio interview about courses",
+        title: "Radio interview about courses"
+    },
+    {
+        type: "image",
+        src: "img/web.png",
+        alt: "Web Development class graduation",
+        title: "Web Development class graduation"
+    },
+    {
+        type: "image",
+        src: "img/tec.png",
+        alt: "Computer Technician class",
+        title: "Computer Technician class"
+    },
+    {
+        type: "image",
+        src: "img/manu.png",
+        alt: "Computer Maintenance class",
+        title: "Computer Maintenance class"
+    }
+];
+
+registers.forEach(item => {
+
+    if (item.type === "image") {
+
+        document.querySelector(".carousel").insertAdjacentHTML(
+            "beforeend",
+            `
+            <div class="item">
+                <img src="${item.src}" alt="${item.alt}">
+                <h5>${item.title}</h5>
+            </div>
+            `
+        );
+
+    } else {
+
+        document.querySelector(".carousel").insertAdjacentHTML(
+            "beforeend",
+            `
+            <div class="item">
+                <video controls>
+                    <source src="${item.src}" type="video/mp4">
+                </video>
+                <h5>${item.title}</h5>
+            </div>
+            `
+        );
+
+    }
+
+});
+
 const projects = [
     {
         name: "WhatsApp Link and QR Code Generator",
@@ -14,10 +73,13 @@ const projects = [
 
     {
         name: "CRUD_GP - Full-Stack Registration System",
-        description: "A user registration system developed to practice full-stack development operations",
+        description: "A user registration system developed to practice full-stack development operations with API Rest Full",
         image: "img/projetos/crudgp.png",
         url: "https://github.com/GabrielMustacheProgrammer/CRUD_GP",
         technologies: [
+            "HTML",
+            "CSS",
+            "JavaScript",
             "PHP",
             "MySQL",
             "Bootstrap"
@@ -69,13 +131,11 @@ const softskills = [
 const ticker_hard = document.getElementById('ticker_hard');
 const ticker_soft = document.getElementById('ticker_soft');
 
-// Add all tech items twice to create seamless infinite scrolling
 function populateTicker() {
     hardskills.forEach(tech => {
         ticker_hard.appendChild(createTechItem(tech));
     });
 
-    // Add duplicates for seamless scrolling
     hardskills.forEach(tech => {
         ticker_hard.appendChild(createTechItem(tech));
     });
