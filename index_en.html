@@ -35,7 +35,8 @@
     <header class="parallax" id="home">
         <div class="hero-content">
             <h1 class="fade-in">Hello, I'm <span style="color: var(--primary);">Gabriel Antonio</span></h1>
-            <p class="fade-in delay-1">Teacher, Full-Stack Developer, passionate about creating amazing digital solutions</p>
+            <p class="fade-in delay-1">Teacher, Full-Stack Developer, passionate about creating amazing digital
+                solutions</p>
             <a href="#about" class="btn fade-in delay-2">Check my work</a>
         </div>
     </header>
@@ -54,21 +55,35 @@
                 <div class="about-text">
                     <h3>Teacher and Full-Stack Developer</h3>
                     <p>
-                        Hello! How are you? My name is Gabriel Antonio, and I am passionate about technology and people. 
-                        Since I was young, I have always been curious about how things work — taking electronics apart, exploring software, and learning everything autodidactically. This curiosity grew over time and became a solid career in Information Technology.
+                        Hello! How are you? My name is Gabriel Antonio, and I am passionate about technology and people.
+                        Since I was young, I have always been curious about how things work — taking electronics apart,
+                        exploring software, and learning everything autodidactically. This curiosity grew over time and
+                        became a solid career in Information Technology.
                     </p>
                     <p>
-                        My first job dealing directly with the public helped me develop clear and empathetic communication — 
-                        a skill I carry with me today. When I started studying IT, I realized I could combine my two passions: interacting with people and technology. 
-                        I found purpose in understanding clients' needs and transforming challenges into technological solutions.
+                        My first job dealing directly with the public helped me develop clear and empathetic
+                        communication —
+                        a skill I carry with me today. When I started studying IT, I realized I could combine my two
+                        passions: interacting with people and technology.
+                        I found purpose in understanding clients' needs and transforming challenges into technological
+                        solutions.
                     </p>
                     <p>
-                        Over time, I discovered another vocation: teaching. Sharing knowledge became one of my greatest achievements, 
-                        and each new experience reinforces my love for learning and sharing what I know. I am driven by challenges, continuous learning, 
+                        Over time, I discovered another vocation: teaching. Sharing knowledge became one of my greatest
+                        achievements,
+                        and each new experience reinforces my love for learning and sharing what I know. I am driven by
+                        challenges, continuous learning,
                         and the desire to grow every day — as a professional and as a person.
                     </p>
                 </div>
             </div>
+
+            <div class="projects-about">
+                <h3>Projetos em Destaque</h3>
+
+                <div class="featured-projects"></div>
+            </div>
+
             <div class="registers">
                 <h3>Some Highlights</h3>
                 <div class="carousel-container">
@@ -170,7 +185,8 @@
                         <h3> My curriculum</h3>
                         <p>Top-down resume, created simply and in detail</p>
                         <div class="project-links">
-                            <a href="cv/CV_Gabriel Antonio English.pdf" download><i data-feather="download"></i>Download</a>
+                            <a href="cv/CV_Gabriel Antonio English.pdf" download><i
+                                    data-feather="download"></i>Download</a>
                         </div>
                     </div>
                 </div>
@@ -204,7 +220,8 @@
                         <textarea id="message" class="form-control" name="msg_user" required></textarea>
                     </div>
 
-                    <div class="g-recaptcha captcha form-group" data-sitekey="6LeN7X8sAAAAAFx7QD4q8MBQMkb2S-s4ckwXtSCT"></div>
+                    <div class="g-recaptcha captcha form-group" data-sitekey="6LeN7X8sAAAAAFx7QD4q8MBQMkb2S-s4ckwXtSCT">
+                    </div>
 
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
@@ -222,7 +239,7 @@
                             data-feather="github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/gabriel-antonio-4ba035214/" aria-label="LinkedIn"><i
                             data-feather="linkedin"></i></a></li>
-                <li><a href="https://wa.me/5531982448518?text=Hello,%20how%20are%20you?%20We%20need%20to%20talk!" 
+                <li><a href="https://wa.me/5531982448518?text=Hello,%20how%20are%20you?%20We%20need%20to%20talk!"
                         aria-label="WhatsApp"><i data-feather="phone"></i></a></li>
             </ul>
             <div class="download-cv fade-in delay-3">
@@ -231,10 +248,25 @@
                     class="btn btn_download" download>Let's Talk?</a>
             </div>
             <p class="fade-in delay-3" style="margin-top: 30px;">© 2025 GA. All rights reserved.</p>
-            <p class="fade-in delay-3" style="font-size: 12px; margin-top: 30px;"><strong>Note:</strong> 
-                To verify the authenticity of diplomas and certificates, please contact me. They are not publicly available to prevent fraud.</p>
+            <p class="fade-in delay-3" style="font-size: 12px; margin-top: 30px;"><strong>Note:</strong>
+                To verify the authenticity of diplomas and certificates, please contact me. They are not publicly
+                available to prevent fraud.</p>
         </div>
     </footer>
+
+    <div id="modal_imgs">
+
+        <div id="content_modal">
+
+            <button id="close_modal">
+                &times;
+            </button>
+
+            <img id="modal_image" src="" alt="Imagem ampliada">
+
+        </div>
+
+    </div>
 
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="script.js"></script>
