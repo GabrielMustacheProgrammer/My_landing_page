@@ -110,5 +110,51 @@ function checkScroll() {
     });
 }
 
+const modal = document.getElementById("modal_imgs");
+const modalImage = document.getElementById("modal_image");
+const closeModal = document.getElementById("close_modal");
+
+
+document.addEventListener("click", (e) => {
+
+    const img = e.target.closest(
+        ".carousel img, .featured-image img, .project-img img"
+    );
+
+
+    if (img) {
+
+        modalImage.src = img.src;
+
+        modal.style.display = "flex";
+
+        document.body.style.overflow = "hidden";
+
+    }
+
+});
+
+
+closeModal.addEventListener("click", () => {
+
+    modal.style.display = "none";
+
+    document.body.style.overflow = "auto";
+
+});
+
+
+modal.addEventListener("click", (e) => {
+
+    if (e.target === modal) {
+
+        modal.style.display = "none";
+
+        document.body.style.overflow = "auto";
+
+    }
+
+});
+
 window.addEventListener('scroll', checkScroll);
 window.addEventListener('load', checkScroll);

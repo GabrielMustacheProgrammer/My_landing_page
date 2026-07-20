@@ -76,6 +76,13 @@
                     </p>
                 </div>
             </div>
+
+            <div class="projects-about">
+                <h3>Projetos em Destaque</h3>
+
+                <div class="featured-projects"></div>
+            </div>
+
             <div class="registers">
                 <h3>Um pouquinho dos registros</h3>
                 <div class="carousel-container">
@@ -214,7 +221,8 @@
                         <textarea id="message" class="form-control" name="msg_user" required></textarea>
                     </div>
 
-                    <div class="g-recaptcha captcha form-group" data-sitekey="6LeN7X8sAAAAAFx7QD4q8MBQMkb2S-s4ckwXtSCT"></div>
+                    <div class="g-recaptcha captcha form-group" data-sitekey="6LeN7X8sAAAAAFx7QD4q8MBQMkb2S-s4ckwXtSCT">
+                    </div>
 
                     <button type="submit" class="submit-btn">Enviar Mensagem</button>
                 </form>
@@ -247,6 +255,20 @@
                 disponibilizados para a prevenção de fraudes.</p>
         </div>
     </footer>
+
+    <div id="modal_imgs">
+
+        <div id="content_modal">
+
+            <button id="close_modal">
+                &times;
+            </button>
+
+            <img id="modal_image" src="" alt="Imagem ampliada">
+
+        </div>
+
+    </div>  
 
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="pt_inser.js"></script>

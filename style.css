@@ -235,6 +235,122 @@
      /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); */
  }
 
+ .projects-about {
+     margin-top: 60px;
+ }
+
+ .projects-about h3 {
+     text-align: center;
+     margin-bottom: 35px;
+ }
+
+ .featured-projects {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 30px;
+ }
+
+ .featured-card {
+
+     width: 340px;
+
+     background: #fff;
+
+     border-radius: 15px;
+
+     overflow: hidden;
+
+     box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+
+     transition: .3s;
+ }
+
+ .featured-card:hover {
+
+     transform: translateY(-8px);
+
+     box-shadow: 0 15px 40px rgba(0, 0, 0, .12);
+
+ }
+
+ .featured-image {
+
+     height: 190px;
+
+     overflow: hidden;
+
+ }
+
+ .featured-image img {
+    cursor: pointer;
+     width: 100%;
+
+     height: 100%;
+
+     object-fit: cover;
+
+     transition: .4s;
+
+ }
+
+ .featured-card:hover img {
+
+     transform: scale(1.08);
+
+ }
+
+ .featured-info {
+
+     padding: 20px;
+
+ }
+
+ .featured-info h4 {
+
+     margin-bottom: 10px;
+
+ }
+
+ .featured-info p {
+
+     margin-bottom: 20px;
+
+ }
+
+ .project-techs {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     margin: 20px 0;
+ }
+
+ .project-tech {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     cursor: pointer;
+     color: var(--primary);
+
+     padding: 6px 14px;
+     border-radius: 50px;
+
+     font-size: .85rem;
+     font-weight: 500;
+
+     transition: .3s;
+ }
+
+ .project-tech:hover {
+     transform: scale(1.05);
+ }
+
+ .project-tech-icon {
+     width: 20px;
+     height: 20px;
+     object-fit: contain;
+ }
+
  .registers {
      display: flex;
      flex-direction: column;
@@ -264,6 +380,7 @@
  }
 
  .item img {
+    cursor: pointer;
      width: 100%;
      display: block;
  }
@@ -676,10 +793,10 @@
      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
  }
 
- .g-recaptcha{
-    transform: scale(0.8);
-    transform-origin: 0 0;
-    width: 100%;
+ .g-recaptcha {
+     transform: scale(0.8);
+     transform-origin: 0 0;
+     width: 100%;
  }
 
  .form-group {
@@ -809,57 +926,182 @@
  .delay-5 {
      animation-delay: 15s;
  }
+#modal_imgs {
+    position: fixed;
 
- #modal_imgs {
-     position: fixed;
-     width: 100%;
-     height: 100vh;
-     z-index: 9999;
-     background: rgba(0, 0, 0, 0.3);
-     backdrop-filter: blur(8px);
-     border-radius: 15px;
-     display: none;
-     inset: 0;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
- }
+    inset: 0;
 
- #content_modal {
-     width: 70%;
-     height: 90vh;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     backdrop-filter: blur(45px);
-     justify-content: center;
-     gap: 1%;
-     border-radius: 25px;
- }
+    width: 100%;
+    height: 100vh;
 
- #content_modal>img {
-     height: 80%;
- }
+    z-index: 9999;
 
- #content_modal>button {
-     font-size: 42px;
-     background-color: transparent;
-     color: #F8F9FA;
-     border: none;
-     margin-left: 90%;
-     cursor: pointer;
-     transition: transform 0.3s ease, color 0.3s ease;
- }
+    background: rgba(0, 0, 0, 0.55);
 
- #content_modal>a {
-     font-size: 1.25rem;
-     color: #F8F9FA;
-     cursor: pointer;
-     transition: linear;
-     transition: transform 0.3s ease, color 0.3s ease;
- }
+    backdrop-filter: blur(10px);
 
- #content_modal>a:hover,
- #content_modal>button:hover {
-     transform: scale(1.2);
- }
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    animation: modalFade 0.3s ease;
+}
+
+
+#content_modal {
+
+    position: relative;
+
+    width: 70%;
+    height: 80vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(20px);
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+}
+
+
+#content_modal>img {
+
+    max-width: 90%;
+
+    max-height: 85%;
+
+    object-fit: contain;
+
+    border-radius: 15px;
+
+    animation: modalZoom 0.3s ease;
+
+}
+
+
+#content_modal>button {
+
+    position: absolute;
+
+    top: 10px;
+
+    right: 20px;
+
+    font-size: 42px;
+
+    background-color: transparent;
+
+    color: #F8F9FA;
+
+    border: none;
+
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+
+}
+
+
+#content_modal>button:hover {
+
+    transform: scale(1.2);
+
+}
+
+
+#content_modal>a {
+
+    font-size: 1.25rem;
+
+    color: #F8F9FA;
+
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+
+}
+
+
+#content_modal>a:hover {
+
+    transform: scale(1.2);
+
+}
+
+
+/* Animação de entrada */
+
+@keyframes modalFade {
+
+    from {
+
+        opacity: 0;
+
+    }
+
+    to {
+
+        opacity: 1;
+
+    }
+
+}
+
+
+@keyframes modalZoom {
+
+    from {
+
+        transform: scale(0.8);
+
+    }
+
+    to {
+
+        transform: scale(1);
+
+    }
+
+}
+
+
+/* Mobile */
+
+@media (orientation: portrait) {
+
+
+    #content_modal {
+
+        width: 95%;
+
+        height: 70vh;
+
+    }
+
+
+    #content_modal>img {
+
+        max-width: 95%;
+
+        max-height: 80%;
+
+    }
+
+
+    #content_modal>button {
+
+        right: 10px;
+
+        top: 5px;
+
+    }
+
+}
