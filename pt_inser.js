@@ -14,10 +14,13 @@ const projects = [
 
     {
         name: "CRUD_GP - Sistema de Cadastro Fullstack",
-        description: " Sistema de cadastro de pessoas desenvolvido para treinar operações Fullstack",
+        description: " Sistema de cadastro de pessoas desenvolvido para treinar operações Fullstack com API REST FULL",
         image: "img/projetos/crudgp.png",
         url: "https://github.com/GabrielMustacheProgrammer/CRUD_GP",
         technologies: [
+            "HTML",
+            "CSS",
+            "JavaScript",
             "PHP",
             "MySQL",
             "Bootstrap"
@@ -228,6 +231,65 @@ const experience = [
         img: ""
     }
 ];
+
+const registers = [
+    {
+        type: "image",
+        src: "img/radio.png",
+        alt: "Palestra na rádio sobre cursos",
+        title: "Palestra na rádio sobre cursos"
+    },
+    {
+        type: "image",
+        src: "img/web.png",
+        alt: "Turma formada em programador Web",
+        title: "Turma formada em programador Web"
+    },
+    {
+        type: "image",
+        src: "img/tec.png",
+        alt: "Turma técnico em informática",
+        title: "Turma técnico em informática"
+    },
+    {
+        type: "image",
+        src: "img/manu.png",
+        alt: "Turma manutenção de computadores",
+        title: "Turma manutenção de computadores"
+    }
+];
+
+registers.forEach(item => {
+
+    if (item.type === "image") {
+
+        document.querySelector(".carousel").insertAdjacentHTML(
+            "beforeend",
+            `
+            <div class="item">
+                <img src="${item.src}" alt="${item.alt}">
+                <h5>${item.title}</h5>
+            </div>
+            `
+        );
+
+    } else {
+
+        document.querySelector(".carousel").insertAdjacentHTML(
+            "beforeend",
+            `
+            <div class="item">
+                <video controls>
+                    <source src="${item.src}" type="video/mp4">
+                </video>
+                <h5>${item.title}</h5>
+            </div>
+            `
+        );
+
+    }
+
+});
 
 projects.forEach(project => {
 
