@@ -1,4 +1,30 @@
 
+const projects = [
+    {
+        name: "Gerador de Link para WhatsApp e Qrcode",
+        description: "Gerador de links para WhatsApp e gerador de qrcode para qualquer link",
+        image: "img/projetos/linkzap.png",
+        url: "https://github.com/GabrielMustacheProgrammer/gerador_linkszap_qrcode",
+        technologies: [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+
+    {
+        name: "CRUD_GP - Sistema de Cadastro Fullstack",
+        description: " Sistema de cadastro de pessoas desenvolvido para treinar operações Fullstack",
+        image: "img/projetos/crudgp.png",
+        url: "https://github.com/GabrielMustacheProgrammer/CRUD_GP",
+        technologies: [
+            "PHP",
+            "MySQL",
+            "Bootstrap"
+        ]
+    }
+];
+
 const hardskills = [
     { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
     { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
@@ -202,6 +228,57 @@ const experience = [
         img: ""
     }
 ];
+
+projects.forEach(project => {
+
+    const techs = project.technologies.map(name => {
+
+        const skill = hardskills.find(h => h.name === name);
+
+        return `
+            <div class="project-tech">
+                <img
+                    class="project-tech-icon"
+                    src="${skill ? skill.icon : ''}"
+                    alt="${name}">
+                <span>${name}</span>
+            </div>
+        `;
+
+    }).join('');
+
+    document.querySelector(".featured-projects").insertAdjacentHTML(
+        "beforeend",
+        `
+        <div class="featured-card fade-in">
+
+            <div class="featured-image">
+                <img src="${project.image}" alt="${project.name}">
+            </div>
+
+            <div class="featured-info">
+
+                <h4>${project.name}</h4>
+
+                <p>${project.description}</p>
+
+                <div class="project-techs">
+                    ${techs}
+                </div>
+
+                <a href="${project.url}"
+                   target="_blank"
+                   class="btn">
+                    Ver Projeto
+                </a>
+
+            </div>
+
+        </div>
+        `
+    );
+
+});
 
 experience.forEach(cert => {
     const ativivies = cert.activities.map(d => `<li>${d}</li>`).join('');
